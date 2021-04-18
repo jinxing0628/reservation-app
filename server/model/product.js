@@ -16,4 +16,4 @@ headingtext2: String,
 headingtext3: String,
 })
 
-module.exports = mongoose.module('Product',ProductSchema)
+module.exports = mongoose.model('Product',ProductSchema)
